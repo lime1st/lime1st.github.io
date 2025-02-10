@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/illiterate//nginx-virtual-host/","tags":["nginx"]}
+{"dg-publish":true,"permalink":"/illiterate//nginx-virtual-host/","tags":["nginx"],"noteIcon":"","updated":true}
 ---
 
 만일 redirect되어 실행되고 있는 서버가 api를 사용한다면 에러가 발생될 수 있다.

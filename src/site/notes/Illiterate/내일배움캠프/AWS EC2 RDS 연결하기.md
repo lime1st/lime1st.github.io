@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/illiterate//aws-ec-2-rds/","tags":["aws"]}
+{"dg-publish":true,"permalink":"/illiterate//aws-ec-2-rds/","tags":["aws"],"noteIcon":""}
 ---
 
 ### EC2에서 RDS로 접속 설정하기

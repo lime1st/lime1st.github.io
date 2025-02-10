@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/illiterate/about/me/"}
+{"dg-publish":true,"permalink":"/illiterate/about/me/","noteIcon":"","updated":true}
 ---
 
 # Lime is..
