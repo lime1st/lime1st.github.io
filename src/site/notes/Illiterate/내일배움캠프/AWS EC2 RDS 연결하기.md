@@ -17,5 +17,5 @@ sudo apt install mysql-client -y
 설치 후 RDS 인스턴스의 엔드포인트를 복사해 EC2에서 접속 한다.
 
 ```
-mysql -h [RDS의 엔드포인트] -u [RDS에서 설정한 계정] -p
+mysql -h [RDS의 엔드포인트] -P 3306 -u [RDS에서 설정한 계정] -p
 ```
