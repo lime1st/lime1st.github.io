@@ -1,11 +1,14 @@
-# vscode server
-http://193.122.107.77:8080
+# lime's
+[Blog](https://lime1st.vercel.app)
 
-# lime1st
-https://lime1st.vercel.app
+# vscode server
+[vscode server](http://193.122.107.77:8080)
 
 # vault server
-http://129.154.192.198/
+[vault server](http://129.154.192.198)
+
+
+---
 
 # Digital Obsidian Garden
 This is the template to be used together with the [Digital Garden Obsidian Plugin](https://github.com/oleeskild/Obsidian-Digital-Garden). 
