@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/illiterate//nginx-virtual-host/","tags":["nginx"],"noteIcon":"","updated":"2025-02-07"}
+{"dg-publish":true,"permalink":"/illiterate//nginx-virtual-host/","tags":["nginx"],"noteIcon":"","created":"2025-02-07","updated":"2025-02-07"}
 ---
 
 만일 redirect되어 실행되고 있는 서버가 api를 사용한다면 에러가 발생될 수 있다.
