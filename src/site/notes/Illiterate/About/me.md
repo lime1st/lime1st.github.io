@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/illiterate/about/me/","noteIcon":"","created":"2025-02-05 10:00","updated":"2025-02-11 10:00"}
+{"dg-publish":true,"permalink":"/illiterate/about/me/","tags":["lime"],"noteIcon":"","created":"2025-02-07 11:03","updated":"2025-02-11 01:34"}
 ---
 
 # Lime is..
