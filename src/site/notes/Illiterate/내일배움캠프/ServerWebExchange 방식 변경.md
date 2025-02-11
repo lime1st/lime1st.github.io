@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/illiterate//server-web-exchange/","tags":["msa"],"noteIcon":"","created":"2025-02-11T13:01:00","updated":"2025-02-11T14:01:36+09:00"}
+{"dg-publish":true,"permalink":"/illiterate//server-web-exchange/","tags":["msa"],"noteIcon":"","created":"2025-02-11T13:01:00","updated":"2025-02-11T14:04:38+09:00"}
 ---
 
 ### 내가 사용한 주요 라이브러리 버전
@@ -96,4 +96,5 @@ private Mono<ServerWebExchange> validateToken(String token, ServerWebExchange ex
 
 ### 결론
 
-실습하거나 공부할 때는 되도록 버전을 맞춰서 하자~~라고 하면서 자꾸 최신버전으로 패키지를 만들게 된다.~~
+실습하거나 공부할 때는 되도록 버전을 맞춰서 하자!~~라고 하면서 자꾸 최신버전으로 패키지를 만들게 된다.~~
+
