@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/illiterate//api/","tags":["api","docker-compose","테이블설계"],"noteIcon":"","created":"2025-02-14T10:12:00","updated":"2025-02-14T10:23:24+09:00"}
+{"dg-publish":true,"permalink":"/illiterate//api/","tags":["api","docker-compose","테이블설계"],"noteIcon":"","created":"2025-02-13T10:12:00","updated":"2025-02-14T10:24:06+09:00"}
 ---
 
 S.A 제출을 완료하고 담당 튜터님의 피드백을 받았다.
