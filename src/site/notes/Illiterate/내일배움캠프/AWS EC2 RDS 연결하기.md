@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/illiterate//aws-ec-2-rds/","tags":["aws"],"noteIcon":"","created":"2025-02-07 11:52","updated":"2025-02-11 01:18"}
+{"dg-publish":true,"permalink":"/illiterate//aws-ec-2-rds/","tags":["aws"],"noteIcon":"","created":"2025-02-07 11:52","updated":"2025-02-17T00:45:03+09:00"}
 ---
 
 ### EC2에서 RDS로 접속 설정하기
@@ -19,3 +19,6 @@ sudo apt install mysql-client -y
 ```
 mysql -h [RDS의 엔드포인트] -u [RDS에서 설정한 계정] -p
 ```
+
+
+[[Illiterate/내일배움캠프/연결한 RDS를 IntelliJ의 스프링부트에서 사용하기\|연결한 RDS를 IntelliJ의 스프링부트에서 사용하기]]
