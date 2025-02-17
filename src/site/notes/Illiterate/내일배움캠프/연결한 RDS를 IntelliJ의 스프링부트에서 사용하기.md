@@ -1,9 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/illiterate//rds-intelli-j/","tags":["intellij","aws"],"noteIcon":"","created":"2025-02-17T00:47:00","updated":"2025-02-17T01:14:07+09:00"}
+{"dg-publish":true,"permalink":"/illiterate//rds-intelli-j/","tags":["intellij","aws"],"noteIcon":"","created":"2025-02-17T00:47:00","updated":"2025-02-17T14:43:45+09:00"}
 ---
 
 AWS EC2에 퍼블릭 IP를 사용 중이라면 RDS에 ip 사용 시 과금이 발생한다. EC2와 RDS를 연결([[Illiterate/내일배움캠프/AWS EC2 RDS 연결하기\|AWS EC2 RDS 연결하기]])한 후 intelliJ의 스프링부트 개발활경에 사용하려면 SSH/Tunnel을 활용할 수 있다.
-##### IntelliJ Ultimate Edition 사용
+
+ 
+> [!info] 
+> IntelliJ Ultimate Edition 사용
 
 ### 1. View > Tool Windows > Database 를 누르면 나오는 우측 창에서 + 를 눌러 데이터 소스를 추가한다.
 
