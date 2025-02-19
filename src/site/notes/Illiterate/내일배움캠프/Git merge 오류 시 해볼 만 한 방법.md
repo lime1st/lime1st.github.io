@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/illiterate//git-merge/","tags":["git"],"noteIcon":"","created":"2025-02-19T17:57:00","updated":"2025-02-19T22:25:09+09:00"}
 ---
 
-Git을 활용한 프로젝트(사실 프로젝트 자체도 처음...)를 처음 진행하고 보니 push, pull, commit등을 새롭게 경험하고 있었는데 merge에 자꾸 오류가 생겨 팀원 분이 공유해 주셔서 해결한 방법
+Git을 활용한 프로젝트를 진행하고 보니 push, pull, commit등을 새롭게 경험하고 있었는데 merge에 자꾸 오류가 생겨 팀원 분이 공유해 주셔서 해결한 방법
 
 # 순서대로 실행해  보기
 
