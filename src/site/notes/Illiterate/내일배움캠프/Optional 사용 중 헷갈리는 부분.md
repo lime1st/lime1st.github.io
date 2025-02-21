@@ -1,10 +1,10 @@
 ---
-{"dg-publish":true,"permalink":"/illiterate//optional/","tags":["java","optional"],"noteIcon":"","created":"2025-02-21T10:26:00","updated":"2025-02-21T10:26:56+09:00"}
+{"dg-publish":true,"permalink":"/illiterate//optional/","tags":["java","optional"],"noteIcon":"","created":"2025-02-21T10:26:00","updated":"2025-02-21T10:27:27+09:00"}
 ---
 
 튜터님과 코드 리뷰중 orElseThrow()와 ifPresent() 를 사용에 대한 질문에 대답을 못해서 찾아보았다.
 라이브러리를 사용할 때 사용 이유를 명확히 해야 겠다!
-
+ 
 # orElseThrow() 와 ifPresent() 비교
 ### orElseThrow()
 
