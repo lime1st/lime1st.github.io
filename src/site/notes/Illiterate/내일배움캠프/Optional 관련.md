@@ -2,6 +2,7 @@
 {"dg-publish":true,"permalink":"/illiterate//optional/","tags":["optional"],"noteIcon":"","created":"2025-02-21T10:19:00","updated":"2025-02-21T10:19:31+09:00"}
 ---
 
+튜터님과의 코드리뷰 후 헷갈리는 내용 정리
 # orElseThrow() 와 ifPresent() 비교
 ### orElseThrow()
 
