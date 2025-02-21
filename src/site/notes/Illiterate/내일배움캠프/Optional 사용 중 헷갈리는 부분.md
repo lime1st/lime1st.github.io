@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/illiterate//optional/","tags":["java","optional"],"noteIcon":"","created":"2025-02-21T10:26:00","updated":"2025-02-21T10:27:27+09:00"}
+{"dg-publish":true,"permalink":"/illiterate//optional/","tags":["java","optional"],"noteIcon":"","created":"2025-02-21T10:26:00","updated":"2025-02-21T16:30:47+09:00"}
 ---
 
 튜터님과 코드 리뷰중 orElseThrow()와 ifPresent() 를 사용에 대한 질문에 대답을 못해서 찾아보았다.
@@ -30,7 +30,7 @@
 # 값의 존재만 확인 할 때는 exists...()
 
 exists...()는 해당 필드 값이 존재하는지 **Boolean 값**으로 반환하기 때문에, **존재 여부만 확인할 때** ifPresent()보다 더 효율적이다.
-
+
 ### 두 코드의 차이점
 
 예를 들어 이메일 중복여부를 확인한다면...
@@ -46,4 +46,4 @@ exists...()는 해당 필드 값이 존재하는지 **Boolean 값**으로 반환
 ### 왜 existsByEmail()이 더 좋은가
 
 - findByEmail()은 DB에서 해당 레코드를 **전체 조회**한다.
-- existsByEmail()은 **존재 여부만 확인**하므로 불필요한 데이터 로딩이 없다.
+- existsByEmail()은 **존재 여부만 확인**하므로 불필요한 데이터 로딩이 없다.
