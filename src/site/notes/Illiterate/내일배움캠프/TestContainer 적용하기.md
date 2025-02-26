@@ -36,4 +36,10 @@ static void configureDatabase(DynamicPropertyRegistry registry) {
     registry.add("spring.datasource.username", container::getUsername);  
     registry.add("spring.datasource.password", container::getPassword);  
 }
+
+// 테스트 종료 시 컨테이너를 중지하기
+@AfterAll  
+static void tearDown() {  
+    container.stop();  
+}
 ```
