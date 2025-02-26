@@ -8,21 +8,21 @@
 ### 1. 실행 환경 설정 메뉴
 Run / Edit Configurations.. 
 
-![Screenshot 2025-02-15 at 2.29.01 pm.png](/img/user/98.%20Attach/Screenshot%202025-02-15%20at%202.29.01%20pm.png)
+![Screenshot 2025-02-15 at 2.29.01 pm.png](/img/user/98.%20Attach/img/Screenshot%202025-02-15%20at%202.29.01%20pm.png)
 
 ### 2. 실행환경 추가하기
 
  +버튼을 누르고 docker / docker-compose 를 선택하고 
  Run 패널에 있는 Compose files 항목에 실행하고자 하는 docker-compose.yml 파일을 선택한다.
  Name: 은 마음대로? 
-![Pasted image 20250215151031.png](/img/user/98.%20Attach/Pasted%20image%2020250215151031.png)
+![Pasted image 20250215151031.png](/img/user/98.%20Attach/img/Pasted%20image%2020250215151031.png)
 
 ### 3. 스프링 부트 애플리케이션을 선택
 
 Before launch 패널이 보이면 + 를 눌러 Run Another Application 메뉴를 선택해 2. 에서 설정한 docker-compose Name: 을 선택해준다.
 Before launch 패널이 안보이면 Build and run 패널에 있는 Modify options를 누르고 아래로 내려가면 선택할 수 있다.
 
-![Pasted image 20250215151230.png](/img/user/98.%20Attach/Pasted%20image%2020250215151230.png)
+![Pasted image 20250215151230.png](/img/user/98.%20Attach/img/Pasted%20image%2020250215151230.png)
 
 ### 4. 실행하면 된다.
 

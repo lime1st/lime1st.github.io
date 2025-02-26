@@ -12,14 +12,14 @@ AWS EC2에 퍼블릭 IP를 사용 중이라면 RDS에 ip 사용 시 과금이 �
 
 Data Source 에는 RDS에서 사용하는 DB를 선택한다.
 
-![Pasted image 20250217005157.png](/img/user/98.%20Attach/Pasted%20image%2020250217005157.png)
+![Pasted image 20250217005157.png](/img/user/98.%20Attach/img/Pasted%20image%2020250217005157.png)
 
 ### 2. SSH/SSL 탭 선택
 
 Use SSH tunnel 을 체크하고 ...을 눌러 ssh 연결 설정을 추가한다.
 Local port: 애플리케이션에서 연결 설정에 사용할 포트 번호
 
-![Pasted image 20250217010104.png](/img/user/98.%20Attach/Pasted%20image%2020250217010104.png)
+![Pasted image 20250217010104.png](/img/user/98.%20Attach/img/Pasted%20image%2020250217010104.png)
 
 ### 3. SSH Configurations 입력
 
@@ -31,7 +31,7 @@ SSH Configurations 창에서 + 눌러 설정을 추가하고 필요한 항목을
 
 Test Connection 을 클릭해 연결이 잘 되는지 확인한다.
 
-![Pasted image 20250217010312.png](/img/user/98.%20Attach/Pasted%20image%2020250217010312.png)
+![Pasted image 20250217010312.png](/img/user/98.%20Attach/img/Pasted%20image%2020250217010312.png)
 
 ### 4. General 탭 선택
 
@@ -41,7 +41,7 @@ Test Connection 을 클릭해 연결이 잘 되는지 확인한다.
 
 Test Connection 으로 RDS의 DB 접속확인(네트워크 환경에 따라 시간이 좀 걸린다...)
 
-![Pasted image 20250217010900.png](/img/user/98.%20Attach/Pasted%20image%2020250217010900.png)
+![Pasted image 20250217010900.png](/img/user/98.%20Attach/img/Pasted%20image%2020250217010900.png)
 
 ### 5. application.properties 파일 설정
 
