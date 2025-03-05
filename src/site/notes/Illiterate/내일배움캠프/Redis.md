@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/illiterate//redis/","tags":["redis"],"noteIcon":"","created":"2025-03-04T16:53:00","updated":"2025-03-05T10:25:46+09:00"}
+{"dg-publish":true,"permalink":"/illiterate//redis/","tags":["redis"],"noteIcon":"","created":"2025-03-04T16:53:00","updated":"2025-03-05T10:26:51+09:00"}
 ---
 
 ## REmote DIctionary Server REDIS
@@ -74,3 +74,5 @@ key - value 의 형태에서 value의 형태를 다양하게 지정할 수 있�
 | 공용 명령      | DEL, EXPIRE, EXPIRETIME, FLUSHDB                                   |
 
 
+---
+[[Illiterate/내일배움캠프/RedisTemplate\|RedisTemplate]]
