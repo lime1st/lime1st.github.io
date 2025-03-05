@@ -1,22 +1,19 @@
 ---
-{"dg-publish":true,"permalink":"/illiterate//redis/","tags":["redis"],"noteIcon":"","created":"2025-03-04T16:53:00","updated":"2025-03-04T16:53:51+09:00"}
+{"dg-publish":true,"permalink":"/illiterate//redis/","tags":["redis"],"noteIcon":"","created":"2025-03-04T16:53:00","updated":"2025-03-05T10:25:46+09:00"}
 ---
+
+## REmote DIctionary Server REDIS
+
+REDIS 는 메모리에서 동작하는 DB이므로 파일 I/O 작업이 일어나지 않는다 -> 그만큼 빠르다!!
+하지만 메모리에 저장되므로 프로세스가 종료되면, 즉 메모리가 비워지는 작업(시스템 종료 등)이 일어나면 데이터가 삭제된다. 즉 영속성이 없다.
+
+#### NoSQL
+
+대표적인 Not Only SQL이다. 스키마와 SQL을 사용하는 관계형 데이터베이스와 달리 데이터를 관리하는 방법이 DB 마다 다르다.
 
 ## 레디스의 활용 예:
 
-1. 세션
-2. 장바구니
-3. 조회수
-4. 리더보드
-5. 방문자 트래킹
-6. **캐싱**[[Illiterate/내일배움캠프/Caching 전략\|Caching 전략]]
-7. 자주 바뀌는 데이터 공유
-
-테이블을 사용하지 않기 때문에 스키마가 없다!
-
-1. 테이터의 크기 증가
-2. 비정형 데이터의 증가
-3. 일관성 데이터 -> 확장성 유연성이 부족하다 -> NoSQL
+Session Clustering, Caching[[Illiterate/내일배움캠프/Caching 전략\|Caching 전략]], 리더보드, 방문수 트래킹, 좌표 기반 검색 등
 
 ## Docker-compose
 
@@ -64,3 +61,16 @@ key - value 의 형태에서 value의 형태를 다양하게 지정할 수 있�
 명령어가 자료형에 따라 지정되어 있다. 
 - Key에 저장된 자료형이 다를 경우 오류가 발생한다.
 - MSET 으로 저장한 데이터(List)는 GET으로 읽어올 수 없다(SET/GET은 string).
+
+#### 타입 별 명령
+
+| type       | command                                                            |
+| ---------- | ------------------------------------------------------------------ |
+| String     | GET, SET, INCR, DECR, MSET, MGET                                   |
+| List       | LPUSH, RPUSH, LPOP, RPOP, LLEN, LRANGE                             |
+| Set        | SADD, SREM, SMEMBERS, SISMEMBER, SCARD, SINTER, SUNION, SINTERCARD |
+| Hash       | HSET, HGET, HMGET, HGETALL, HKEYS, HLEN                            |
+| Sorted Set | ZADD, ZINCREBY, ZRANK, ZRANGE, ZREVRANK, ZREVRANGE                 |
+| 공용 명령      | DEL, EXPIRE, EXPIRETIME, FLUSHDB                                   |
+
+
