@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/illiterate//transaction-persistence/","tags":["transaction","persistence"],"noteIcon":"","created":"2025-03-11T23:41:00","updated":"2025-03-11T23:51:33+09:00"}
+{"dg-publish":true,"permalink":"/illiterate//transaction-persistence/","tags":["transaction","persistence"],"noteIcon":"","created":"2025-03-11T23:41:00","updated":"2025-03-11T23:56:47+09:00"}
 ---
 
 ## 스프링 컨테이너의 기본 전략
