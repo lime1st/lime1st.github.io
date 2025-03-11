@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/illiterate//isolation-level/","tags":["transaction","isolation","격리수준"],"noteIcon":"","created":"2025-03-11T05:24:00","updated":"2025-03-11T05:48:02+09:00"}
+{"dg-publish":true,"permalink":"/illiterate//isolation-level/","tags":["transaction","isolation","격리수준"],"noteIcon":"","created":"2025-03-11T05:24:00","updated":"2025-03-12T02:54:59+09:00"}
 ---
 
 ## Isolation 격리성
@@ -37,3 +37,5 @@
 
 ---
 출처: [자바 ORM 표준 JPA 프로그래밍](https://product.kyobobook.co.kr/detail/S000000935744)
+
+[[Illiterate/내일배움캠프/Transaction scope persistence context\|Transaction scope persistence context]]

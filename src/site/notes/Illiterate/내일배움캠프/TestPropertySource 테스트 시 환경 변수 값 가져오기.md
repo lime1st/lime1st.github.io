@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/illiterate//test-property-source/","tags":["test","property"],"noteIcon":"","created":"2025-02-24T22:34:00","updated":"2025-02-24T22:36:59+09:00"}
+{"dg-publish":true,"permalink":"/illiterate//test-property-source/","tags":["test","property"],"noteIcon":"","created":"2025-02-24T22:34:00","updated":"2025-03-12T02:52:01+09:00"}
 ---
 
 테스트 코드를 작성하고 실행을 할 때 application.yml 파일에 필요한 환경변수를 가져오지 못하는 문제가 발생했다.
@@ -26,3 +26,6 @@ jwt:
 
 location = "classpath:application-test.yml" 이런식으로 값을 넣은 파일을 따로 설정해서 적용할 수도 있다.
 
+---
+[[Illiterate/내일배움캠프/TestContainer 적용하기\|TestContainer 적용하기]]
+[[Illiterate/내일배움캠프/MockMvc, MockMvcTester 비교\|MockMvc, MockMvcTester 비교]]

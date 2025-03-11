@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/illiterate//jwt-claim-vs-subject/","tags":["jwt"],"noteIcon":"","created":"2025-02-17T17:42:00","updated":"2025-02-18T23:41:43+09:00"}
+{"dg-publish":true,"permalink":"/illiterate//jwt-claim-vs-subject/","tags":["jwt"],"noteIcon":"","created":"2025-02-17T17:42:00","updated":"2025-03-12T02:49:18+09:00"}
 ---
 
 프로젝트에서 맡은 인증 / 인가 부분을 구현하다가 어디는 claim()을 사용하는 예제가 있고 subject()를 사용하는 예제가 있어 뭐가 다른지 찾아 보았다.
@@ -23,13 +23,13 @@
 
 JWT에는 IETF의 [RFC 7519](https://datatracker.ietf.org/doc/html/rfc7519)에서 정의한 몇 가지 **예약된 클레임(Registered Claims)**이 있다.
 
-|**메서드**|**의미**|**예제 값**|
-|---|---|---|
-|subject()|사용자 식별자 (주체)|“user123”, “admin@example.com”|
-|issuer()|토큰 발급자|“your-app”|
-|expiration()|만료 시간|2024-12-31T23:59:59Z|
-|issuedAt()|발급 시간|2024-01-01T00:00:00Z|
-|audience()|토큰 대상(수신자)|“your-client-id”|
+| **메서드**      | **의미**       | **예제 값**                        |
+| ------------ | ------------ | ------------------------------- |
+| subject()    | 사용자 식별자 (주체) | “user123”, “admin\@example.com” |
+| issuer()     | 토큰 발급자       | “your-app”                      |
+| expiration() | 만료 시간        | 2024-12-31T23:59:59Z            |
+| issuedAt()   | 발급 시간        | 2024-01-01T00:00:00Z            |
+| audience()   | 토큰 대상(수신자)   | “your-client-id”                |
 
 # subject()를 사용하는 이유
 

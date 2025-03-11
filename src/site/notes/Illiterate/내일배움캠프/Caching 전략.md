@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/illiterate//caching/","tags":["cache","redis","RESTful"],"noteIcon":"","created":"2025-02-27T22:47:00","updated":"2025-02-27T22:50:02+09:00"}
+{"dg-publish":true,"permalink":"/illiterate//caching/","tags":["cache","redis","RESTful"],"noteIcon":"","created":"2025-02-27T22:47:00","updated":"2025-03-12T02:53:33+09:00"}
 ---
 
 Redis가 많이 활용되는 분야는 캐싱이다. 웹 브라우저에서는 자주 바뀌지 않는 부분은 브라우저 캐시에 저장해 페이지 로드를 줄이는 것도 캐싱의 일종으로 ==RESTful 설계 원칙== 중에서 **응답이 캐싱이 가능한지 명시해야 한다**는 제약사항으로도 나타난다.
@@ -17,3 +17,6 @@ Redis가 많이 활용되는 분야는 캐싱이다. 웹 브라우저에서는 �
 
 캐시에만 데이터를 작성한 후 일정 주기로 원본을 갱신한다.
 캐시는 휘발성이 있으므로 DB에 반영하기 전에 문제가 생기면 원본을 잃을 수 있다.
+
+---
+[[Illiterate/내일배움캠프/Redis\|Redis]]

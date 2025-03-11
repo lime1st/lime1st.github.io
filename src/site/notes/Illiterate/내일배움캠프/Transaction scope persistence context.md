@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/illiterate//transaction-scope-persistence-context/","tags":["transaction","jpa"],"noteIcon":"","created":"2025-03-12T00:02:00","updated":"2025-03-12T00:09:33+09:00"}
+{"dg-publish":true,"permalink":"/illiterate//transaction-scope-persistence-context/","tags":["transaction","jpa"],"noteIcon":"","created":"2025-03-12T00:02:00","updated":"2025-03-12T02:54:49+09:00"}
 ---
 
 ## 스프링 컨테이너의 기본 전략
@@ -20,3 +20,5 @@
 
 ---
 출처: [자바 ORM 표준 JPA 프로그래밍](https://product.kyobobook.co.kr/detail/S000000935744)
+
+[[Illiterate/내일배움캠프/isolation level\|isolation level]]

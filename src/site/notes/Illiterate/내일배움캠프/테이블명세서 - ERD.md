@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/illiterate//erd/","tags":["erd"],"noteIcon":"","created":"2025-02-12T23:07:00","updated":"2025-02-14T23:54:40+09:00"}
+{"dg-publish":true,"permalink":"/illiterate//erd/","tags":["erd"],"noteIcon":"","created":"2025-02-12T23:07:00","updated":"2025-03-12T02:54:03+09:00"}
 ---
 
 프로젝트가 시작되자마자 알고 있다고 생각했던 것들이 헷갈린다.
@@ -56,4 +56,6 @@
 
 [ERD 그리기](https://app.diagrams.net/): 오늘 팀원 한 분이 공유해 주어서 함께 ERD 를 작성해 보았다. 공유기능이 있어 서로 맡은 부분을 한 페이지에 작업할 수 있는 기능이 있다는 것을 알게 되었다. ㅎㅎ
 
+---
 [[Illiterate/내일배움캠프/API, 테이블 설계 피드백\|API, 테이블 설계 피드백]]
+[[Illiterate/내일배움캠프/FK 제약 조건을 실제 DB에 적용하지 않는 경우\|FK 제약 조건을 실제 DB에 적용하지 않는 경우]]

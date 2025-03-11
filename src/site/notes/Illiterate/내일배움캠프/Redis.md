@@ -13,7 +13,7 @@ REDIS 는 메모리에서 동작하는 DB이므로 파일 I/O 작업이 일어�
 
 ## 레디스의 활용 예:
 
-Session Clustering, Caching[[Illiterate/내일배움캠프/Caching 전략\|Caching 전략]], 리더보드, 방문수 트래킹, 좌표 기반 검색 등
+Session Clustering, [[Illiterate/내일배움캠프/Caching 전략\|Caching 전략]], 리더보드, 방문수 트래킹, 좌표 기반 검색 등
 
 ## Docker-compose
 

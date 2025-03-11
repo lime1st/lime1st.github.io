@@ -30,3 +30,7 @@
 - **인덱스의 수**: 너무 많은 인덱스를 생성하면 오히려 성능이 저하될 수 있습니다.
 
 인덱싱은 데이터베이스 성능을 최적화하는 데 중요한 역할을 하며, 적절한 인덱스를 설계하는 것이 중요합니다. 
+
+---
+[[Illiterate/내일배움캠프/isolation level\|isolation level]]
+[[Illiterate/내일배움캠프/Transaction scope persistence context\|Transaction scope persistence context]]
