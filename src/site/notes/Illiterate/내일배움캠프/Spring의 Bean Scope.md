@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/illiterate//spring-bean-scope/","tags":["spring","bean","scope"],"noteIcon":"","created":"2025-03-12T10:25:00","updated":"2025-03-12T10:27:36+09:00"}
+{"dg-publish":true,"permalink":"/illiterate//spring-bean-scope/","tags":["spring","bean","scope"],"noteIcon":"","created":"2025-03-12T10:25:00","updated":"2025-03-12T23:52:17+09:00"}
 ---
 
 ## 스코프 Scope
@@ -46,3 +46,5 @@
 
 ---
 출처: [스프링 교과서](https://product.kyobobook.co.kr/detail/S000213355775)
+
+[[Illiterate/내일배움캠프/FetchType.LAZY\|FetchType.LAZY]]
