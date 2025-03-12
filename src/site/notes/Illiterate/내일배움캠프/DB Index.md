@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/illiterate//db-index/","tags":["DB","index"],"noteIcon":"","created":"2025-03-06T23:13:00","updated":"2025-03-06T23:14:09+09:00"}
+{"dg-publish":true,"permalink":"/illiterate//db-index/","tags":["DB","index"],"noteIcon":"","created":"2025-03-06T23:13:00","updated":"2025-03-12T02:55:23+09:00"}
 ---
 
 **데이터베이스 인덱싱** : 데이터베이스 인덱싱은 조회 성능을 크게 향상시킬 수 있는 방법이다. 인덱스를 사용하면 데이터베이스는 데이터를 빠르게 검색할 수 있습니다. 올바르게 설계된 인덱스는 읽기 성능을 최적화하고 쿼리 응답 시간을 줄입니다. 주의할 점은 인덱스가 너무 많으면 쓰기 성능이 저하될 수 있다는 것입니다.
