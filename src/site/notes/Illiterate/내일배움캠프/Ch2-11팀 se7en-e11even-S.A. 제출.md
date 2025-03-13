@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/illiterate//ch2-11-se7en-e11even-s-a/","noteIcon":"","created":"2025-03-13T12:49:00","updated":"2025-03-13T13:01:58+09:00"}
+{"dg-publish":true,"permalink":"/illiterate//ch2-11-se7en-e11even-s-a/","noteIcon":"","created":"2025-03-13T12:49:00","updated":"2025-03-13T12:58:00"}
 ---
 
 **Ch.2 대규모 AI 시스템 프로젝트 S.A 제출**
