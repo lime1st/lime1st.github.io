@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/illiterate//ch2-11-se7en-e11even-s-a/","noteIcon":"","created":"2025-03-13T12:49:00","updated":"2025-03-13T12:48:56+09:00"}
+{"dg-publish":true,"permalink":"/illiterate//ch2-11-se7en-e11even-s-a/","noteIcon":"","created":"2025-03-13T12:49:00","updated":"2025-03-13T13:01:58+09:00"}
 ---
 
 **Ch.2 대규모 AI 시스템 프로젝트 S.A 제출**
@@ -11,7 +11,7 @@
 
 ## API 명세서
 
-API 명세서는 블로그 글로 옮기기에 어려움이 캡처 이미지로 첨부하였습니다. 노션 페이지 참조 부탁드립니다.
+API 명세서는 옮기기에 어려움이 캡처 이미지로 첨부하였습니다. 노션 페이지 참조 부탁드립니다.
 
 ![SCR-20250313-lqod.png](/img/user/98.%20Attach/SCR-20250313-lqod.png)
 
