@@ -20,7 +20,7 @@ git fetch origin dev
 
 ### 3. git merge <병합할_브랜치>
 
-git fetch origin/dev
+git merge origin/dev
 
 로컬 브랜치를 기준으로 원격저장소(origin)의 dev ==브랜치의 변경 사항==을 병합한다. 로컬 브랜치는 그대로이고, 원격의 최신 변경 사항만 반영된다.
 
