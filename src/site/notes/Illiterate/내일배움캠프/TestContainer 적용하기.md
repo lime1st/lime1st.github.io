@@ -47,3 +47,4 @@ static void tearDown() {
 ---
 [[Illiterate/내일배움캠프/TestPropertySource 테스트 시 환경 변수 값 가져오기\|TestPropertySource 테스트 시 환경 변수 값 가져오기]]
 [[Illiterate/내일배움캠프/MockMvc, MockMvcTester 비교\|MockMvc, MockMvcTester 비교]]
+[[Illiterate/내일배움캠프/Validator를 활용한 객체 유효성 검사\|Validator를 활용한 객체 유효성 검사]]

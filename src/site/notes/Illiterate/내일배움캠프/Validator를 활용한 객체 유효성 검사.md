@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/illiterate//validator/","tags":["test","junit"],"noteIcon":"","created":"2025-03-17T23:00:00","updated":"2025-03-18T03:16:17+09:00"}
+{"dg-publish":true,"permalink":"/illiterate//validator/","tags":["test","junit","validate"],"noteIcon":"","created":"2025-03-17T23:00:00","updated":"2025-03-18T03:16:56+09:00"}
 ---
 
 ## 객체의 유효성 검사 제약 조건을 검증하기 위한 단위 테스트
