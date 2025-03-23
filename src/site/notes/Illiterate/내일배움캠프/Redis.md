@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/illiterate//redis/","tags":["redis"],"noteIcon":"","created":"2025-03-04T16:53:00","updated":"2025-03-05T10:26:51+09:00"}
+{"dg-publish":true,"permalink":"/illiterate//redis/","tags":["redis"],"noteIcon":"","created":"2025-03-04T16:53:00","updated":"2025-03-22T18:17:32+09:00"}
 ---
 
 ## REmote DIctionary Server REDIS
@@ -73,6 +73,19 @@ key - value 의 형태에서 value의 형태를 다양하게 지정할 수 있�
 | Sorted Set | ZADD, ZINCREBY, ZRANK, ZRANGE, ZREVRANK, ZREVRANGE                 |
 | 공용 명령      | DEL, EXPIRE, EXPIRETIME, FLUSHDB                                   |
 
+## 어노테이션
+
+#### `@Cacheable`은 메서드 실행 전에 **캐시 여부를 먼저 확인**하기 때문에,
+
+- SpEL이 `command`를 먼저 평가
+- 그 결과 `getCompanyIdAndHubId()`가 캐싱됨
+- **`return` 값은 캐싱되지 않음**
+
+#### `@CachePut`은 **메서드 실행 후** 결과를 캐시에 저장
+
+- `@Cacheable`은 **캐시가 존재하면 메서드를 실행하지 않고 캐시된 값을 반환**
+- `@CachePut`은 **항상 메서드를 실행한 후, 반환값을 캐시에 저장**
+- 따라서 `@CachePut`을 사용하면 **메서드 실행 후 `return` 값을 캐싱 가능**
 
 ---
 [[Illiterate/내일배움캠프/RedisTemplate\|RedisTemplate]]
