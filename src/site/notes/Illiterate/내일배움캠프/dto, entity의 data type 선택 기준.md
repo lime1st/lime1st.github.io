@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/illiterate//dto-entity-data-type/","tags":["type","#dto","#entity"],"noteIcon":"","created":"2025-03-21T23:52:00","updated":"2025-03-23T17:47:50+09:00"}
+{"dg-publish":true,"permalink":"/illiterate//dto-entity-data-type/","tags":["type","dto","entity"],"noteIcon":"","created":"2025-03-21T23:52:00","updated":"2025-03-23T17:47:50+09:00"}
 ---
 
 ## 1. 개요
