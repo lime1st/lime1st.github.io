@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/illiterate//dto-entity-data-type/","tags":["type","#dto","#entity"],"noteIcon":"","created":"2025-03-21T23:52:00","updated":"2025-03-23T17:45:44+09:00"}
+{"dg-publish":true,"permalink":"/illiterate//dto-entity-data-type/","tags":["type","#dto","#entity"],"noteIcon":"","created":"2025-03-21T23:52:00","updated":"2025-03-23T17:47:50+09:00"}
 ---
 
 ## 1. 개요
@@ -38,7 +38,7 @@ public record OrderCreateRequest(
 - 클라이언트가 `quantity` 값을 생략하면 `null`로 처리 가능
 - `@NotNull` 등의 검증 애너테이션과 함께 사용할 수 있음
 
-## 응답 객체(Response DTO)에서의 선택
+## 3. 응답 객체(Response DTO)에서의 선택
 
 **응답 객체에서는 primitive type(`int`, `long`)을 선호하는 경우가 많음**  
 
