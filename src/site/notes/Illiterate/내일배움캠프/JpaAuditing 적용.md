@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/illiterate//jpa-auditing/","tags":["jpa","auditing"],"noteIcon":"","created":"2025-03-25T18:11:00","updated":"2025-03-25T18:13:56+09:00"}
+{"dg-publish":true,"permalink":"/illiterate//jpa-auditing/","tags":["jpa","auditing"],"noteIcon":"","created":"2025-03-25T18:11:00","updated":"2025-03-29T14:51:49+09:00"}
 ---
 
 ## 수정 전
@@ -86,3 +86,6 @@ public class JpaConfig {
 
 즉, 날짜 기반 자동 감사(`@CreatedDate`, `@LastModifiedDate`)만 사용할 경우 생략 가능하지만,  
 사용자 정보를 추적하는 `AuditorAware`를 함께 사용하면 반드시`@EntityListeners(AuditingEntityListener.class)`를 추가해야 함.
+
+---
+[[Illiterate/til 작성할 것/RequestContextHolder\|RequestContextHolder]]
