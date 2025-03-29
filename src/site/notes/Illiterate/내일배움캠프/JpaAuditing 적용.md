@@ -88,4 +88,4 @@ public class JpaConfig {
 사용자 정보를 추적하는 `AuditorAware`를 함께 사용하면 반드시`@EntityListeners(AuditingEntityListener.class)`를 추가해야 함.
 
 ---
-[[Illiterate/til 작성할 것/RequestContextHolder\|RequestContextHolder]]
+[[Illiterate/내일배움캠프/RequestContextHolder\|RequestContextHolder]]
