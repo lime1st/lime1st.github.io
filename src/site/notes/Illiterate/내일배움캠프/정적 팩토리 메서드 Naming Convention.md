@@ -2,8 +2,6 @@
 {"dg-publish":true,"permalink":"/illiterate//naming-convention/","tags":["convention","staticFactoryMethod"],"noteIcon":"","created":"2025-02-16T15:49:00","updated":"2025-04-01T15:52:41+09:00"}
 ---
 
-프로젝트 팀원 분이 공유해 주신 내용에서 내가 당장 외우고 있으면 좋을 내용만 정리해보았다.
-
 # 네이밍 종류
 
 ### from:
