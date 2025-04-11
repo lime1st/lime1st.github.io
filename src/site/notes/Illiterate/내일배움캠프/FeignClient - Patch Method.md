@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/illiterate//feign-client-patch-method/","tags":["feign","patch"],"noteIcon":"","created":"2025-04-10T21:37:00","updated":"2025-04-10T21:59:45+09:00"}
+{"dg-publish":true,"permalink":"/illiterate//feign-client-patch-method/","tags":["feign","patch"],"noteIcon":"","created":"2025-04-10T21:37:00","updated":"2025-04-11T10:01:52+09:00"}
 ---
 
 FeignClient로 PatchMethod 요청을 하면
@@ -67,7 +67,7 @@ feign.RetryableException: service-name: nodename nor servname provided, or not k
 
 다음과 같은 문제라고 하는데 HttpClient 설정을 변경하기 전 Get, Post 등으로 테스트 할 때에는 잘 적용이 되었기 때문에 이유를 찾는데 애를 먹은 것 같다.
 
-> Feign 클라이언트가 ticket-service라는 서비스 이름을 DNS 또는 서비스 레지스트리(Eureka)에서 해석하지 못해 발생한 문제입니다. 이는 Apache HttpClient로 전환한 후 PATCH 메서드 자체의 문제는 해결되었을 가능성이 있지만, Eureka와의 서비스 디스커버리 설정에 문제가 있음을 나타냅니다.
+> Feign 클라이언트가 service-name이라는 서비스 이름을 DNS 또는 서비스 레지스트리(Eureka)에서 해석하지 못해 발생한 문제입니다. 이는 Apache HttpClient로 전환한 후 PATCH 메서드 자체의 문제는 해결되었을 가능성이 있지만, Eureka와의 서비스 디스커버리 설정에 문제가 있음을 나타냅니다.
 
 몇 번의 삽질 끝에 url 을 지정해주었더니 해결 되었다......아 나의 시간...
 
