@@ -114,4 +114,4 @@ CompletableFuture.supplyAsync(() -> someIOOperation())
 
 ---
 출처: 자바네트워크소녀 Netty, gpt
-[[Illiterate/til 작성할 것/Spring의  async event 처리 방식 비교\|Spring의  async event 처리 방식 비교]]
+[[Illiterate/내일배움캠프/Spring의  async event 처리 방식 비교\|Spring의  async event 처리 방식 비교]]
