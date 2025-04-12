@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/illiterate//sync-async-blocking-non-blocking/","tags":["sync","async","bloking","non-bloking"],"noteIcon":"","created":"2025-03-11T10:24:00","updated":"2025-03-31T09:37:14+09:00"}
+{"dg-publish":true,"permalink":"/illiterate//sync-async-blocking-non-blocking/","tags":["sync","async","bloking","non-bloking"],"noteIcon":"","created":"2025-03-11T10:24:00","updated":"2025-04-12T23:52:38+09:00"}
 ---
 
 ## TTA (한국정보통신기술협회)의 정의
@@ -114,3 +114,4 @@ CompletableFuture.supplyAsync(() -> someIOOperation())
 
 ---
 출처: 자바네트워크소녀 Netty, gpt
+[[Illiterate/til 작성할 것/Spring의  async event 처리 방식 비교\|Spring의  async event 처리 방식 비교]]
