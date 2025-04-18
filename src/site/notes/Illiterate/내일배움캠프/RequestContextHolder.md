@@ -28,4 +28,4 @@ public void enableInheritableThreadLocal() {
 
 ---
 [[Illiterate/내일배움캠프/JpaAuditing 적용\|JpaAuditing 적용]]
-[[Illiterate/내일배움캠프/비동기(@Acync) 처리시 주의\|비동기(@Acync) 처리시 주의]]
+[[Illiterate/내일배움캠프/비동기(@Async) 처리시 주의\|비동기(@Async) 처리시 주의]]

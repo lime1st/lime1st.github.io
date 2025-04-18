@@ -86,4 +86,4 @@ public class EventListener {
 - **ThreadPoolTaskExecutor**: 스레드 풀이 사전에 정의된 크기로 동작하므로, 필요 이상의 스레드를 생성하여 자원을 낭비하는 것을 방지할 수 있으며, 대량의 이벤트를 처리할 때 더 안정적인 성능을 보장할 수 있다.
 
 ---
-[[Illiterate/내일배움캠프/이벤트의 Async 처리 위치\|이벤트의 Async 처리 위치]]
+[[Illiterate/내일배움캠프/event의 Async 처리 위치\|event의 Async 처리 위치]]
