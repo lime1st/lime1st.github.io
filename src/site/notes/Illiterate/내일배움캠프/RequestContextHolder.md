@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/illiterate//request-context-holder/","tags":["requestcontextholder","inheritablethreadlocal"],"noteIcon":"","created":"2025-03-29T14:51:00","updated":"2025-03-29T14:51:22+09:00"}
+{"dg-publish":true,"permalink":"/illiterate//request-context-holder/","tags":["requestcontextholder","inheritablethreadlocal"],"noteIcon":"","created":"2025-03-29T14:51:00","updated":"2025-04-18T10:40:52+09:00"}
 ---
 
 두 번째 프로젝트에서 AuditorAware 를 구현하면서 `RequestContextHolder`를 사용했는데 튜터님이 `RequestContextHolder`는 내부적으로 `ThreadLocal`을 사용해서 비동기 로직에서 해당 홀더를 접근하지 못할 거라고 해서 해결 방안을 찾아 보았다.
@@ -28,3 +28,4 @@ public void enableInheritableThreadLocal() {
 
 ---
 [[Illiterate/내일배움캠프/JpaAuditing 적용\|JpaAuditing 적용]]
+[[Illiterate/내일배움캠프/비동기(@Acync) 처리시 주의\|비동기(@Acync) 처리시 주의]]

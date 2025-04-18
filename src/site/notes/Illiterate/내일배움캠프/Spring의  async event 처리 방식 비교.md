@@ -1,8 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/illiterate//spring-async-event/","tags":["async"],"noteIcon":"","created":"2025-04-12T23:51:00","updated":"2025-04-12T23:51:45+09:00"}
+{"dg-publish":true,"permalink":"/illiterate//spring-async-event/","tags":["async"],"noteIcon":"","created":"2025-04-12T23:51:00","updated":"2025-04-18T10:39:20+09:00"}
 ---
 
-
 # 1. SimpleApplicationEventMulticaster 설정
 
 ```java
@@ -85,3 +84,6 @@ public class EventListener {
 
 - **SimpleAsyncTaskExecutor**: 새로운 스레드를 필요에 따라 생성하므로, 매우 많은 이벤트를 처리해야 하는 경우에는 성능적인 발목을 잡을 위험이 있으며, 자원 누수 문제를 발생시킬 수 있다.
 - **ThreadPoolTaskExecutor**: 스레드 풀이 사전에 정의된 크기로 동작하므로, 필요 이상의 스레드를 생성하여 자원을 낭비하는 것을 방지할 수 있으며, 대량의 이벤트를 처리할 때 더 안정적인 성능을 보장할 수 있다.
+
+---
+[[Illiterate/내일배움캠프/이벤트의 Async 처리 위치\|이벤트의 Async 처리 위치]]

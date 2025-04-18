@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/illiterate//the-reactive-manifesto/","tags":["reactive"],"noteIcon":"","created":"2025-04-07T13:11:00","updated":"2025-04-08T01:13:01+09:00"}
+{"dg-publish":true,"permalink":"/illiterate//the-reactive-manifesto/","tags":["reactive"],"noteIcon":"","created":"2025-04-07T13:11:00","updated":"2025-04-18T10:36:57+09:00"}
 ---
 
 현대 애플리케이션이 갖춰야할 바람직한 속성들
@@ -35,4 +35,5 @@
 다양한 상황에 따라 빠르고 적절하게 반응하는 시스템
 
 사용자에게 가장 빠르고 적절한 응답을 제공하기 위해 장애로부터 빠르게 회복하고(탄력성), 시스템은 사용량 트래픽에 반응해 시스템 자원 조절을 유연하게 수행하며(유연성), 메시지 기반 통신을 통해 느슨한 결합과 위치 투명성을 제공해야 한다.
-
+---
+[[Illiterate/내일배움캠프/이벤트의 Async 처리 위치\|이벤트의 Async 처리 위치]]
