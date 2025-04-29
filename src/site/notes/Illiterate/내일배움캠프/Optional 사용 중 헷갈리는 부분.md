@@ -1,46 +1,62 @@
 ---
-{"dg-publish":true,"permalink":"/illiterate//optional/","tags":["java","optional"],"noteIcon":"","created":"2025-02-21T10:26:00","updated":"2025-03-12T02:50:06+09:00"}
+{"dg-publish":true,"permalink":"/illiterate//optional/","tags":["mockmvc","mockmvctester"],"noteIcon":"","created":"2025-02-22T11:34:00","updated":"2025-03-12T02:52:18+09:00"}
 ---
 
-튜터님과 코드 리뷰중 orElseThrow()와 ifPresent()를 사용에 대한 질문에 대답을 못해서 찾아보았다.
-라이브러리를 사용할 때 사용 이유를 명확히 해야 겠다!
-## orElseThrow() 와 ifPresent() 비교
+## MockMvc
 
-#### orElseThrow()
-- Optional에 **값이 있으면 반환**하고, **없으면 예외를 던짐**.
-- 값이 반드시 존재해야 할 때, 값이 없으면 예외를 발생시켜 흐름을 중단하고 싶을 때 사용
+`MockMvc`는 **Spring MVC 컨트롤러를 테스트하는 전통적인 방법**으로, `perform()` 메서드를 사용해 요청을 보내고 `andExpect()`로 검증한다.
 
-#### ifPresent()
-- Optional에 **값이 있으면** 제공된 **코드 블록(Consumer)을 실행**하고 없으면 아무 작업도 수행하지 않음.
-- 값이 있으면 어떤 작업을 수행하고, 없을 때는 **특별한 조치가 필요하지 않을 때**, 값의 유무에 따라 **선택적 로직을 처리**할 때 사용
+#### 특징
 
-#### 비교
+- `MockMvc`는 **Http 요청을 직접 시뮬레이션**하는 방식
+- `andExpect()`로 응답을 검증
+- `ResultActions`를 사용해 체이닝 가능
+- JSON 응답을 다룰 때 `jsonPath()`를 활용해야 함
 
-| **기능**       | orElseThrow()                           | ifPresent()                         |
-| ------------ | --------------------------------------- | ----------------------------------- |
-| **목적**       | 값이 없으면 예외를 던짐                           | 값이 있으면 작업 수행 (없으면 아무것도 안 함)         |
-| **값의 반환**    | 내부 값을 반환 (T)                            | 반환값 없음 (void)                       |
-| **동작 방식**    | 값이 있으면 반환, 없으면 Exception 발생             | 값이 있으면 Consumer 실행                  |
-| **사용 사례**    | 값이 필수적일 때, 없는 경우 예외로 처리해야 할 때           | 값이 있으면 특정 작업을 수행하고 싶을 때             |
-| **예외 발생 여부** | 값이 없으면 예외 발생                            | 예외 발생하지 않음                          |
-| **코드 예시**    | name.orElseThrow(() -> new Exception()) | name.ifPresent(System.out::println) |
+#### 사용 예제
 
-## 값의 존재만 확인 할 때는 exists...()
+```java
+@Test
+void testMockMvc() throws Exception {
+    mockMvc.perform(post("/api/sign-up")
+            .contentType(MediaType.APPLICATION_JSON)
+            .content(objectMapper.writeValueAsString(bob))
+            .with(csrf()))
+        .andExpect(status().isBadRequest()) 
+        .andExpect(jsonPath("$.message").value(containsString("이메일 형식")));
+}
+```
 
-exists...()는 해당 필드 값이 존재하는지 **Boolean 값**으로 반환하기 때문에, **존재 여부만 확인할 때** ifPresent()보다 더 효율적이다.
+`mockMvc.perform()`을 사용하여 **요청을 실행한 후 `andExpect()`를 체이닝**해서 검증.
 
-#### 두 코드의 차이점
+---
 
-예를 들어 이메일 중복여부를 확인한다면...
-|**특징**|findByEmail().ifPresent()|existsByEmail()|
-|---|---|---|
-|**목적**|회원 객체를 조회하고, 존재하면 예외 발생 | 회원 존재 여부만 확인하고, 존재하면 예외 발생 |
-| **성능** | **SELECT 전체 열** (엔티티 전체 조회) | **SELECT 1** (존재 여부만 확인, 성능 우수) |
-| **적합한 상황** | 조회한 객체를 사용해야 할 경우 | 객체가 필요 없고 **존재 여부**만 확인 |
-| **리턴 타입** | Optional\<Member> | boolean |
-| **JPA 메서드 예시** | Optional\<Member> findByEmail(String email) | boolean existsByEmail(String email)|
+## MockMvcTester
 
-#### 왜 existsByEmail()이 더 좋은가
+`MockMvcTester`는 **Spring Boot 3.2부터 도입된 새로운 테스트 API**로, `MockMvc`보다 **더 직관적인 API 디자인을 제공**한다고 한다.
 
-- findByEmail()은 DB에서 해당 레코드를 **전체 조회**한다.
-- existsByEmail()은 **존재 여부만 확인**하므로 불필요한 데이터 로딩이 없다.
+#### 특징
+
+- `assertThat()` 스타일로 검증 가능 (JUnit + AssertJ 조합)
+- `bodyJson()`을 직접 사용할 수 있어 JSON 응답을 쉽게 다룰 수 있음
+- `jsonPath()` 없이 `as(Class<T>)`로 JSON을 `Map` 또는 DTO로 변환 가능
+- 보다 **Fluent API 스타일**로 작성 가능
+
+#### 사용 예제
+
+```java
+assertThat(mvc.post().uri("/api/sign-up")
+        .contentType(MediaType.APPLICATION_JSON)
+        .content(objectMapper.writeValueAsString(bob))
+        .with(csrf())
+).hasStatus(HttpStatus.BAD_REQUEST)
+        .bodyJson().asString().contains("이메일 형식");
+```
+
+`MockMvc`보다 코드가 더 간결하고 직관적인지는 모르겠다. 아무래도 자주 사용해야 더 직관적으로 다가오지 않을까...
+
+---
+[[Illiterate/내일배움캠프/TestContainer 적용하기\|TestContainer 적용하기]]
+[[Illiterate/내일배움캠프/TestPropertySource 테스트 시 환경 변수 값 가져오기\|TestPropertySource 테스트 시 환경 변수 값 가져오기]]
+assertThat으로 감싸서 사용한다는 부분이 다소 어색하게 느껴졌다.
+bodyJson().asString()으로 Json을 확인 하는 점은 편한 것 같다.
